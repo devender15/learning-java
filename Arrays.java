@@ -36,8 +36,5 @@ public class Arrays {
             students[i] = in.next();
         }
 
-        Arrays arr = new Arrays();
-        String arrayString = arr.toString(students);
-        System.out.println(arrayString);
     }
 }
