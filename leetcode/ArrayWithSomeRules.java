@@ -34,7 +34,7 @@ public class ArrayWithSomeRules {
         int[] arr = {0,1,2,3,4};
         int[] index = {0,1,2,2,1};
 
-        Object[] ans = new ArrayList<>(arr.length);
+//        Object[] ans = new ArrayList<>(arr.length);
 
 //        int[] ans = new int[arr.length];
 
@@ -49,12 +49,12 @@ public class ArrayWithSomeRules {
 
 //        System.out.println(Arrays.toString(arr));
 
-        for (int i = 0; i < arr.length; i++) {
-            ans.add(index[i], arr[i]);
-        }
-
-        ans = ans.toArray();
-        System.out.println(ans);
+//        for (int i = 0; i < arr.length; i++) {
+//            ans.add(index[i], arr[i]);
+//        }
+//
+//        ans = ans.toArray();
+//        System.out.println(ans);
 
     }
 }
