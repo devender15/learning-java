@@ -16,7 +16,7 @@ public class First {
 
     static void patter30(int n) {
         for (int i = 1; i <= n; i++) {
-            for(int s = 0; i<n-i; s++) {
+            for(int s = 0; s<n-i; s++) {
                 System.out.print(" ");
             }
             for (int j = i; j >= 1 ; j--) {
@@ -29,6 +29,22 @@ public class First {
     static void patter28(int n) {
         for (int i = 0; i < 2*n; i++) {
             int totalColsInRow = i>n ? 2*n-i : i;
+
+            int noOfSpaces = n - totalColsInRow;
+            for (int s = 0; s < noOfSpaces; s++) {
+                System.out.print(" ");
+            }
+
+            for (int j = 0; j < totalColsInRow; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+
+    static void pattern8(int n) {
+        for (int i = 0; i < n; i++) {
+            int totalColsInRow = 2*i+1;
 
             int noOfSpaces = n - totalColsInRow;
             for (int s = 0; s < noOfSpaces; s++) {
@@ -95,9 +111,10 @@ public class First {
 //        pattern3(5);
 //        pattern4(5);
 //        pattern5(5);
+//        pattern8(5);
 //        patter28(5);
-//        patter30(5);
-        patter31(4);
+        patter30(5);
+//        patter31(4);
     }
 
 }
