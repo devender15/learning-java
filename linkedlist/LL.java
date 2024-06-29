@@ -136,9 +136,9 @@ public class LL {
         return head;
     }
 
-    public boolean isPalindrome(Node head) {
-        Node mid = middleNode(head);
-    }
+//    public boolean isPalindrome(Node head) {
+//        Node mid = middleNode(head);
+//    }
 
     public void deleteFirst() {
         head = head.next;
